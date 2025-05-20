@@ -1,1 +1,1 @@
-print(f"Just wait for good milk...")
+print(f"Just wait for 100 stars...")
