@@ -1,1 +1,1 @@
-# r2money
+[r2money](https://r2.money?code=M2Y7E)
