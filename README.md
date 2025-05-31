@@ -152,6 +152,8 @@ Edit the `.env` file to customize the bot's behavior:
 | `REFERRAL_TIMES`       | Integer           | Number of referral code usages                 | `10`          |
 | `INTERVAL_SECONDS`     | Integer           | Time interval between task rounds (in seconds) | `86400`       |
 
+</details>
+
 ## ▶️ Running the Bot
 
 <details>
@@ -178,8 +180,6 @@ chmod +x run.sh && ./run.sh
 ```
 
 </details>
-
-
 
 ## File Permissions
 
