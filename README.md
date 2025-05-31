@@ -36,24 +36,26 @@ You can choose between standard installation or Docker-based deployment.
 - Verify installation by opening Command Prompt and typing:
   ```bash
   python --version
-````
+  ```
 
 </details>
 
 <details>
 <summary><b>macOS</b></summary>
 
-* Install [Homebrew](https://brew.sh/) first:
+- Install [Homebrew](https://brew.sh/) first:
 
   ```bash
   /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
   ```
-* Install Python using Homebrew:
+
+- Install Python using Homebrew:
 
   ```bash
   brew install python
   ```
-* Verify installation:
+
+- Verify installation:
 
   ```bash
   python3 --version
@@ -64,18 +66,20 @@ You can choose between standard installation or Docker-based deployment.
 <details>
 <summary><b>Linux</b></summary>
 
-* For Ubuntu/Debian:
+- For Ubuntu/Debian:
 
   ```bash
   sudo apt update
   sudo apt install python3 python3-pip -y
   ```
-* For CentOS/RHEL:
+
+- For CentOS/RHEL:
 
   ```bash
   sudo yum install python3 python3-pip -y
   ```
-* Verify installation:
+
+- Verify installation:
 
   ```bash
   python3 --version
@@ -88,8 +92,8 @@ You can choose between standard installation or Docker-based deployment.
 <details>
 <summary><b>Windows</b></summary>
 
-* Download from [git-scm.com](https://git-scm.com/download/win)
-* Use default settings during installation
+- Download from [git-scm.com](https://git-scm.com/download/win)
+- Use default settings during installation
 
 </details>
 
@@ -128,9 +132,9 @@ cd r2money
 
 Ensure you have the following files in your folder:
 
-* `meomundep.py` - Main bot script
-* `.env` - Configuration file
-* `privateKeys.txt` - Wallet private keys
+- `meomundep.py` - Main bot script
+- `.env` - Configuration file
+- `privateKeys.txt` - Wallet private keys
 
 ### Configuration Parameters (`.env`)
 
@@ -225,7 +229,7 @@ evm privatekey
 evm privatekey
 ```
 
-*Note: each row represents one wallet/account*
+_Note: each row represents one wallet/account_
 
 ---
 
@@ -234,25 +238,25 @@ evm privatekey
 <details>
 <summary><b>Bot crashes on startup</b></summary>
 
-* Ensure all required packages are installed
-* Check your Python version (Python 3.11.9 required)
-* Verify configuration file format
+- Ensure all required packages are installed
+- Check your Python version (Python 3.11.9 required)
+- Verify configuration file format
 
 </details>
 
 <details>
 <summary><b>Connection errors</b></summary>
 
-* Check your internet connection
-* Verify proxy settings if using proxies
-* Check if the required endpoints are accessible
+- Check your internet connection
+- Verify proxy settings if using proxies
+- Check if the required endpoints are accessible
 
 </details>
 
 <details>
 <summary><b>Authentication failures</b></summary>
 
-* Ensure your private key is correct and not malformed
+- Ensure your private key is correct and not malformed
 
 </details>
 
@@ -265,17 +269,18 @@ evm privatekey
 
 1. **Data Protection**:
 
-   * Keep your `privateKeys.txt` and `.env` files safe
-   * Use file permissions to prevent unauthorized access
+   - Keep your `privateKeys.txt` and `.env` files safe
+   - Use file permissions to prevent unauthorized access
 
 2. **Docker Security**:
 
-   * Run Docker containers as non-root user:
+   - Run Docker containers as non-root user:
 
      ```bash
      docker run -u 1000:1000 meomundep-bot
      ```
-   * Keep Docker and dependencies updated
+
+   - Keep Docker and dependencies updated
 
 </details>
 
@@ -283,19 +288,17 @@ evm privatekey
 
 ## 💬 Contact and Support
 
-* **Support via Referral:** [r2.money?code=M2Y7E](https://r2.money?code=M2Y7E)
-* **Donate:** [Telegram Donate](https://t.me/KeoAirDropFreeNe/312/27801)
-* **Work Contact:** [@MeoMunDep on Telegram](https://t.me/MeoMunDep)
-* **Support Group:** [Join here](https://t.me/KeoAirDropFreeNe)
-* **Updates Channel:** [View channel](https://t.me/KeoAirDropFreeNee)
-* **YouTube:** [@keoairdropfreene](https://www.youtube.com/@keoairdropfreene)
-* **Instagram:** [@meomundep](https://www.instagram.com/meomundep)
-* **TikTok:** [@meomundep](https://www.tiktok.com/@meomundep)
+- **Support via Referral:** [r2.money?code=M2Y7E](https://r2.money?code=M2Y7E)
+- **Donate:** [Telegram Donate](https://t.me/KeoAirDropFreeNe/312/27801)
+- **Work Contact:** [@MeoMunDep on Telegram](https://t.me/MeoMunDep)
+- **Support Group:** [Join here](https://t.me/KeoAirDropFreeNe)
+- **Updates Channel:** [View channel](https://t.me/KeoAirDropFreeNee)
+- **YouTube:** [@keoairdropfreene](https://www.youtube.com/@keoairdropfreene)
+- **Instagram:** [@meomundep](https://www.instagram.com/meomundep)
+- **TikTok:** [@meomundep](https://www.tiktok.com/@meomundep)
 
 ---
 
 ⚠️ **Disclaimer**: This code is provided "as is" without any warranties. Use it at your own risk. Redistribution or sale of this code in any form is strictly prohibited.
 
 ✨ Thank you for using the bot. Good luck and happy farming! 🚀
-
-```
