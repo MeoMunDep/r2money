@@ -36,51 +36,61 @@ You can choose between standard installation or Docker-based deployment.
 - Verify installation by opening Command Prompt and typing:
   ```bash
   python --version
-  ```
-  </details>
+````
+
+</details>
 
 <details>
 <summary><b>macOS</b></summary>
 
-- Install [Homebrew](https://brew.sh/) first:
+* Install [Homebrew](https://brew.sh/) first:
+
   ```bash
   /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
   ```
-- Install Python using Homebrew:
+* Install Python using Homebrew:
+
   ```bash
   brew install python
   ```
-- Verify installation:
+* Verify installation:
+
   ```bash
   python3 --version
   ```
-  </details>
+
+</details>
 
 <details>
 <summary><b>Linux</b></summary>
 
-- For Ubuntu/Debian:
+* For Ubuntu/Debian:
+
   ```bash
   sudo apt update
   sudo apt install python3 python3-pip -y
   ```
-- For CentOS/RHEL:
+* For CentOS/RHEL:
+
   ```bash
   sudo yum install python3 python3-pip -y
   ```
-- Verify installation:
+* Verify installation:
+
   ```bash
   python3 --version
   ```
-  </details>
+
+</details>
 
 ### 2. Install Git (Optional)
 
 <details>
 <summary><b>Windows</b></summary>
 
-- Download from [git-scm.com](https://git-scm.com/download/win)
-- Use default settings during installation
+* Download from [git-scm.com](https://git-scm.com/download/win)
+* Use default settings during installation
+
 </details>
 
 <details>
@@ -110,23 +120,21 @@ cd r2money
 
 </details>
 
-<details>
+---
 
-## Configuration
+## ⚙️ Configuration
 
 ### Required Files
 
 Ensure you have the following files in your folder:
 
-- `meomundep.py` - Main bot script
-- `.env` - Configuration file
-- `privateKeys.txt` - Bot data
+* `meomundep.py` - Main bot script
+* `.env` - Configuration file
+* `privateKeys.txt` - Wallet private keys
 
-### Configurations (.env)
+### Configuration Parameters (`.env`)
 
 Edit the `.env` file to customize the bot's behavior:
-
-#### Configuration Parameters Table
 
 | Field                  | Type              | Description                                    | Example Value |
 | ---------------------- | ----------------- | ---------------------------------------------- | ------------- |
@@ -152,7 +160,7 @@ Edit the `.env` file to customize the bot's behavior:
 | `REFERRAL_TIMES`       | Integer           | Number of referral code usages                 | `10`          |
 | `INTERVAL_SECONDS`     | Integer           | Time interval between task rounds (in seconds) | `86400`       |
 
-</details>
+---
 
 ## ▶️ Running the Bot
 
@@ -181,7 +189,9 @@ chmod +x run.sh && ./run.sh
 
 </details>
 
-## File Permissions
+---
+
+## 🔐 File Permissions
 
 <details>
 <summary><b>Windows</b></summary>
@@ -201,73 +211,91 @@ chmod 600 configs.json privateKeys.txt .env meomundep.py
 
 </details>
 
-## Private keys
+---
+
+## 🔑 Private Keys
 
 📥 [Generate wallets here](https://github.com/MeoMunDep/Automatic-Ultimate-Create-Wallets-for-Airdrop)
 
-```txt
+Each line in `privateKeys.txt` should contain one private key:
+
+```
 evm privatekey
 evm privatekey
 evm privatekey
 ```
 
-_Note: each row for each account_
+*Note: each row represents one wallet/account*
 
-## Troubleshooting
+---
+
+## 🧰 Troubleshooting
 
 <details>
 <summary><b>Bot crashes on startup</b></summary>
 
-- Ensure all required packages are installed
-- Check your Python version (Python 3.11.9 required)
-- Verify configuration file format
+* Ensure all required packages are installed
+* Check your Python version (Python 3.11.9 required)
+* Verify configuration file format
+
 </details>
 
 <details>
 <summary><b>Connection errors</b></summary>
 
-- Check your internet connection
-- Verify proxy settings if using proxies
-- Check if the required endpoints are accessible
+* Check your internet connection
+* Verify proxy settings if using proxies
+* Check if the required endpoints are accessible
+
 </details>
 
 <details>
 <summary><b>Authentication failures</b></summary>
 
-- Ensure your privatekey is correct
+* Ensure your private key is correct and not malformed
+
 </details>
 
-## Security Recommendations
+---
+
+## 🔒 Security Recommendations
 
 <details>
 <summary><b>Recommendations</b></summary>
 
 1. **Data Protection**:
 
-   - Keep your `privateKeys.txt` and configuration files secure
-   - Use file permissions to restrict access
+   * Keep your `privateKeys.txt` and `.env` files safe
+   * Use file permissions to prevent unauthorized access
 
 2. **Docker Security**:
 
-   - Run Docker containers as non-root user:
+   * Run Docker containers as non-root user:
+
      ```bash
      docker run -u 1000:1000 meomundep-bot
      ```
-   - Keep your Docker installation up-to-date
+   * Keep Docker and dependencies updated
 
 </details>
 
-## Contact and Support
+---
 
-- **Support me via** [Referral Link](https://r2.money?code=M2Y7E)
-- **Support me via Donate** [Here](https://t.me/KeoAirDropFreeNe/312/27801)
-- **Contact for work:** [Telegram](https://t.me/MeoMunDep)
-- **Join the support group:** [Join here](https://t.me/KeoAirDropFreeNe)
-- **Updates Channel:** [View channel](https://t.me/KeoAirDropFreeNee)
-- **YouTube Channel:** [Watch here](https://www.youtube.com/@keoairdropfreene)
-- **Instagram:** [Follow me](https://www.instagram.com/meomundep)
-- **Tiktok:** [Follow me](https://www.tiktok.com/@meomundep)
+## 💬 Contact and Support
 
-⚠️ **Disclaimer**: This code is provided "as is" without any warranties. Use it at your own risk. You are solely responsible for any consequences arising from its use. Redistribution or sale of this code in any form is strictly prohibited.
+* **Support via Referral:** [r2.money?code=M2Y7E](https://r2.money?code=M2Y7E)
+* **Donate:** [Telegram Donate](https://t.me/KeoAirDropFreeNe/312/27801)
+* **Work Contact:** [@MeoMunDep on Telegram](https://t.me/MeoMunDep)
+* **Support Group:** [Join here](https://t.me/KeoAirDropFreeNe)
+* **Updates Channel:** [View channel](https://t.me/KeoAirDropFreeNee)
+* **YouTube:** [@keoairdropfreene](https://www.youtube.com/@keoairdropfreene)
+* **Instagram:** [@meomundep](https://www.instagram.com/meomundep)
+* **TikTok:** [@meomundep](https://www.tiktok.com/@meomundep)
 
-✨ Thank you for using the bot, hope you earn from my scripts! Good luck! 🚀
+---
+
+⚠️ **Disclaimer**: This code is provided "as is" without any warranties. Use it at your own risk. Redistribution or sale of this code in any form is strictly prohibited.
+
+✨ Thank you for using the bot. Good luck and happy farming! 🚀
+
+```
