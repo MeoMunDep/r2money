@@ -126,7 +126,7 @@ cd r2money
 
 ---
 
-## ⚙️ Configuration
+## Configuration
 
 ### Required Files
 
@@ -166,7 +166,7 @@ Edit the `.env` file to customize the bot's behavior:
 
 ---
 
-## ▶️ Running the Bot
+## Running the Bot
 
 <details>
 <summary><b>Standard Method</b></summary>
@@ -233,7 +233,7 @@ _Note: each row represents one wallet/account_
 
 ---
 
-## 🧰 Troubleshooting
+## Troubleshooting
 
 <details>
 <summary><b>Bot crashes on startup</b></summary>
@@ -262,7 +262,7 @@ _Note: each row represents one wallet/account_
 
 ---
 
-## 🔒 Security Recommendations
+## Security Recommendations
 
 <details>
 <summary><b>Recommendations</b></summary>
@@ -286,7 +286,7 @@ _Note: each row represents one wallet/account_
 
 ---
 
-## 💬 Contact and Support
+## Contact and Support
 
 - **Support via Referral:** [r2.money?code=M2Y7E](https://r2.money?code=M2Y7E)
 - **Donate:** [Telegram Donate](https://t.me/KeoAirDropFreeNe/312/27801)
