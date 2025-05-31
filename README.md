@@ -18,7 +18,7 @@ Before setting up the bot, ensure you have the following installed:
 
 - **Python 3.11.9** - Required to run the script
 - **Git** (optional) - For cloning the repository
-- 
+
 ## Installation Methods
 
 You can choose between standard installation or Docker-based deployment.
