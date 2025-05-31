@@ -288,7 +288,7 @@ _Note: each row represents one wallet/account_
 
 ## Contact and Support
 
-- **Support via Referral:** [r2.money?code=M2Y7E](https://r2.money?code=M2Y7E)
+- **Support via Referral:** [r2money Link](https://r2.money?code=M2Y7E)
 - **Donate:** [Telegram Donate](https://t.me/KeoAirDropFreeNe/312/27801)
 - **Work Contact:** [@MeoMunDep on Telegram](https://t.me/MeoMunDep)
 - **Support Group:** [Join here](https://t.me/KeoAirDropFreeNe)
